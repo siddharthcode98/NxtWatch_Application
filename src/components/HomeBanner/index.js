@@ -16,8 +16,8 @@ const HomeBanner = () => {
       {(value) => {
         const { onToggleHomeBanner } = value;
         return (
-          <BannerContainer data-testid="banner">
-            <TransBtn data-testid="close" onClick={() => onToggleHomeBanner()}>
+          <BannerContainer>
+            <TransBtn onClick={() => onToggleHomeBanner()}>
               <AiOutlineClose size={"30px"} />
             </TransBtn>
             <HomeBannerLogo

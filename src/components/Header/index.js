@@ -80,11 +80,7 @@ const Header = (props) => {
             </Link>
 
             <HeaderSection>
-              <TransBtn
-                data-testid="theme"
-                type="button"
-                onClick={() => changeTheme()}
-              >
+              <TransBtn type="button" onClick={() => changeTheme()}>
                 {themeLogo}
               </TransBtn>
 

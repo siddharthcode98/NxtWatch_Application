@@ -41,10 +41,7 @@ const SavedVideoSection = () => {
               </ImageContainer>
             ) : (
               <>
-                <TrendingBannerContainer
-                  data-testid="savedVideos"
-                  bgColor={Theme}
-                >
+                <TrendingBannerContainer bgColor={Theme}>
                   <IconContainer color={iconContainerColor}>
                     <AiFillFire color={"red"} size={"35px"} />
                   </IconContainer>

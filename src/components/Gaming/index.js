@@ -26,12 +26,12 @@ const Gaming = () => {
         const iconContainerColor = activeTheme ? "#d7dfe9" : "black";
         const titleColor = activeTheme ? "black" : "white";
         return (
-          <AppContainer data-testid="gaming">
+          <AppContainer>
             <Header />
             <HomeSection>
               <SidebarHeader />
               <GameSection2>
-                <TrendingBannerContainer data-testid="banner" bgColor={Theme}>
+                <TrendingBannerContainer bgColor={Theme}>
                   <IconContainer color={iconContainerColor}>
                     <SiYoutubegaming color={"red"} size={"35px"} />
                   </IconContainer>

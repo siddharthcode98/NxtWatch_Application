@@ -84,7 +84,7 @@ class VideoItem extends Component {
     }
   };
   showLoadingView = () => (
-    <div className="loader-container" data-testid="loader">
+    <div className="loader-container">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   );
@@ -249,7 +249,7 @@ class VideoItem extends Component {
           const { activeTheme } = value;
           const Theme = activeTheme ? "#f9f9f9" : " #0f0f0f";
           return (
-            <VideoItemContainer data-testid="videoItemDetails" bgColor={Theme}>
+            <VideoItemContainer bgColor={Theme}>
               <>{this.showViews()}</>
             </VideoItemContainer>
           );

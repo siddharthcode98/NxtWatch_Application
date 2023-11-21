@@ -73,7 +73,7 @@ class HomeVideoSection extends Component {
     }
   };
   showLoadingView = () => (
-    <div className="loader-container" data-testid="loader">
+    <div className="loader-container">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   );
@@ -168,7 +168,7 @@ class HomeVideoSection extends Component {
           const bgColor = activeTheme ? "white" : "black";
           const searchTextColor = activeTheme ? "black" : "white";
           return (
-            <HomeVideosContainer data-testid="home" bgColor={Theme}>
+            <HomeVideosContainer bgColor={Theme}>
               <SearchContainer>
                 <SearchInput
                   type="search"
@@ -178,10 +178,7 @@ class HomeVideoSection extends Component {
                   bgColor={bgColor}
                   color={searchTextColor}
                 />
-                <SearchBtn
-                  data-testid="searchButton"
-                  onClick={this.userSearchEnter}
-                >
+                <SearchBtn onClick={this.userSearchEnter}>
                   <BsSearch size={"10px"} />
                 </SearchBtn>
               </SearchContainer>

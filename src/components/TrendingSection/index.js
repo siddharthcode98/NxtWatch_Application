@@ -67,7 +67,7 @@ class TrendingSection extends Component {
   };
 
   showLoadingView = () => (
-    <div className="loader-container" data-testid="loader">
+    <div className="loader-container">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   );
@@ -155,7 +155,7 @@ class TrendingSection extends Component {
           const { activeTheme } = value;
           const Theme = activeTheme ? "#f9f9f9" : " #0f0f0f";
           return (
-            <TrendingSectionContainer data-testid="trending" bgColor={Theme}>
+            <TrendingSectionContainer bgColor={Theme}>
               {this.showViews()}
             </TrendingSectionContainer>
           );

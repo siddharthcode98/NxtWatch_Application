@@ -32,7 +32,7 @@ const Trending = () => {
             <HomeSection>
               <SidebarHeader />
               <TrendingSection2>
-                <TrendingBannerContainer data-testid="trending" bgColor={Theme}>
+                <TrendingBannerContainer bgColor={Theme}>
                   <IconContainer color={iconContainerColor}>
                     <AiFillFire color={"red"} size={"35px"} />
                   </IconContainer>
