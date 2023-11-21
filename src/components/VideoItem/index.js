@@ -116,7 +116,6 @@ class VideoItem extends Component {
     };
     const dimensions = {
       width: "100%",
-      height: "640px",
     };
 
     return (

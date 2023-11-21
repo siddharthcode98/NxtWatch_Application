@@ -4,6 +4,9 @@ import styled from "styled-components";
 export const LoginLogo = styled.img`
   width: 250px;
   align-self: center;
+  @media screen and (min-width: 320px) {
+    width: 100px;
+  }
 `;
 
 export const Navbar = styled.nav`

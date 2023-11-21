@@ -45,7 +45,7 @@ export const VideosUnorderedList = styled.ul`
 export const SearchContainer = styled.div`
   display: flex;
   align-items: center;
-  width: 500px;
+  min-width: 100px;
 `;
 
 export const SearchBtn = styled.button`

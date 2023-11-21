@@ -2,18 +2,15 @@ import styled from "styled-components";
 
 export const VideoContainer = styled.li`
   box-sizing: border-box;
-  height: 350px;
   width: 300px;
   margin-right: 5px;
   padding: 10px;
   margin-bottom: 5px;
   @media screen and (max-width: 576px) {
     width: 100%;
-    height: 500px;
   }
   @media screen and (min-width: 576px) and (max-width: 768px) {
     width: 100%;
-    height: 500px;
   }
 `;
 
